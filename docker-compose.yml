@@ -1,0 +1,13 @@
+version: "3.10"
+services:
+  face-recog:
+    image: "facerecogpolda"
+    container_name: main
+    restart: "always"
+    build: .
+    ports:
+      - "3344:3344"
+    volumes:
+      - .:/code
+    environment:
+      - LOG_LEVEL=debug
