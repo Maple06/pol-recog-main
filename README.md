@@ -9,7 +9,7 @@
 `uvicorn main:app --host 0.0.0.0 --port 3344`
     - This runs the app on localhost port 3344
 
-Send a post request to the main directory "/api/v<version>" (localhost:3344) that include 1 body requests, "file" which is an image upload/image binary string.
+Send a post request to the main directory "/api/v\<version\>" (localhost:3344) that include 1 body requests, "file" which is an image upload/image binary string.
 
 This API updates then re-train datasets on 01:00 a.m. local time
 
