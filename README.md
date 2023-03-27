@@ -15,6 +15,7 @@ This API updates then re-train datasets on 01:00 a.m. local time
 
 ### Outputs
 - v1
+```
 {
     "path_frame": [
         "yyyyMMdd/uniqueID/frame/frame001.jpg",
@@ -35,8 +36,10 @@ This API updates then re-train datasets on 01:00 a.m. local time
     ],
     "status": 1
 }
+```
 
 - v2 and v3
+```
 {
     "path_frame": [
         "yyyyMMdd/uniqueID/frame/frame001.jpg",
@@ -49,6 +52,7 @@ This API updates then re-train datasets on 01:00 a.m. local time
     }
     "status": 1
 }
+```
 
 ##### v2 and v3 does not support confidence score since VGGFace does not support confidence score.
 
