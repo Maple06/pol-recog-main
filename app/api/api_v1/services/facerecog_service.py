@@ -47,6 +47,9 @@ class RecogService:
 
         output = models.inputRecog("v1", filename, filenameDatas)
 
+        if output["result"] == []:
+            return {"path_frame": None, "path_result": None, "result": None, "error_message": "No face detected", "status": 0}
+
         JSONFilename = f"{CWD}/data/api_v1/output/{timeNow}/{count}/data/face.json"
 
         with open(JSONFilename, "w") as f:

@@ -1,404 +1,271 @@
-2023-03-20 08:24:12,144 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 08:24:18,187 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 08:29:34,731 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 08:29:34,731 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 08:29:34,740 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
-2023-03-20 08:29:40,244 - app - INFO - v2Encode:76 - Encoding Faces... (This may take a while)
-2023-03-20 08:31:40,813 - app - INFO - v2Encode:156 - Encoding Done!
-2023-03-20 08:31:40,817 - app - INFO - v2Encode:158 - [v2] Encoding Done!
-2023-03-20 08:31:40,827 - app - INFO - v3Encode:162 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 08:31:40,827 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 08:31:42,299 - app - ERROR - imgCropV3:454 - Something happened - 'NoneType' object has no attribute 'shape'. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg
-2023-03-20 08:45:12,665 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 08:45:18,327 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 08:54:23,938 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 08:54:23,949 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 08:54:23,949 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 08:54:23,958 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 08:54:23,963 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 08:55:49,121 - app - ERROR - imgCropV3:454 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84e/64002924e3ef43e72bf1b84e.jpg
-2023-03-20 09:37:13,135 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 09:37:19,686 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 09:37:33,989 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 09:37:39,454 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 09:42:49,558 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 09:42:49,570 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 09:42:49,571 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 09:42:49,577 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 09:42:49,578 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 09:43:57,523 - app - ERROR - imgCropV3:454 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84e/64002924e3ef43e72bf1b84e.jpg
-2023-03-20 09:48:50,498 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 09:48:55,886 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 09:54:05,920 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 09:54:05,936 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 09:54:05,936 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 09:54:05,940 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 09:54:05,941 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 09:55:13,559 - app - ERROR - imgCropV3:454 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84e/64002924e3ef43e72bf1b84e.jpg
-2023-03-20 09:57:01,644 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 09:57:08,340 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:01:17,795 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:01:23,105 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:05:17,970 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:05:23,826 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:05:34,084 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:05:40,445 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:08:01,528 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:08:07,341 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:13:16,300 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 10:13:16,307 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 10:13:16,308 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
-2023-03-20 10:13:19,296 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b84c/64002924e3ef43e72bf1b84c.jpg
-2023-03-20 10:13:20,787 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b855/64002924e3ef43e72bf1b855.jpg
-2023-03-20 10:13:20,847 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b857/64002924e3ef43e72bf1b857.jpg
-2023-03-20 10:13:20,889 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b858/64002924e3ef43e72bf1b858.jpg
-2023-03-20 10:13:21,976 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b870/64002924e3ef43e72bf1b870.jpg
-2023-03-20 10:13:22,459 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b876/64002924e3ef43e72bf1b876.jpg
-2023-03-20 10:13:22,612 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64002924e3ef43e72bf1b87a/64002924e3ef43e72bf1b87a.jpg
-2023-03-20 10:13:23,061 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/6412993090e8b06d0c8b6680/6412993090e8b06d0c8b6680.jpg
-2023-03-20 10:13:23,112 - app - ERROR - imgCropV2:409 - Something happened - OpenCV(4.7.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
-> Overload resolution failed:
->  - src is not a numpy array, neither a scalar
->  - Expected Ptr<cv::UMat> for argument 'src'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v2/dataset/64129dad25cd653c4a877ef3/64129dad25cd653c4a877ef3.jpg
-2023-03-20 10:13:23,150 - app - INFO - v2Encode:76 - Encoding Faces... (This may take a while)
-2023-03-20 10:15:10,240 - app - INFO - v2Encode:156 - Encoding Done!
-2023-03-20 10:15:10,240 - app - INFO - v2Encode:158 - [v2] Encoding Done!
-2023-03-20 10:15:10,252 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 10:15:10,253 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 10:15:11,528 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg
-2023-03-20 10:15:12,841 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b821/64002924e3ef43e72bf1b821.jpg
-2023-03-20 10:15:14,148 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b822/64002924e3ef43e72bf1b822.jpg
-2023-03-20 10:15:15,462 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b823/64002924e3ef43e72bf1b823.jpg
-2023-03-20 10:15:16,726 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b824/64002924e3ef43e72bf1b824.jpg
-2023-03-20 10:15:18,029 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b825/64002924e3ef43e72bf1b825.jpg
-2023-03-20 10:15:19,282 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b826/64002924e3ef43e72bf1b826.jpg
-2023-03-20 10:15:20,660 - app - ERROR - imgCropV3:457 - Something happened - conver. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b827/64002924e3ef43e72bf1b827.jpg
-2023-03-20 10:18:54,238 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:19:00,181 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:24:11,027 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 10:24:11,027 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 10:24:11,027 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 10:24:11,041 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 10:24:11,042 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 10:24:12,467 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg
-2023-03-20 10:25:23,634 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:25:29,275 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:30:48,155 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 10:30:48,159 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 10:30:48,160 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 10:30:48,165 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 10:30:48,166 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 10:30:49,593 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg
-2023-03-20 10:31:52,918 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84b/64002924e3ef43e72bf1b84b.jpg
-2023-03-20 10:31:57,633 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84e/64002924e3ef43e72bf1b84e.jpg
-2023-03-20 10:32:07,842 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b855/64002924e3ef43e72bf1b855.jpg
-2023-03-20 10:32:10,729 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b857/64002924e3ef43e72bf1b857.jpg
-2023-03-20 10:32:12,177 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b858/64002924e3ef43e72bf1b858.jpg
-2023-03-20 10:32:32,938 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b866/64002924e3ef43e72bf1b866.jpg
-2023-03-20 10:32:35,891 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:783: error: (-215:Assertion failed) !_img.empty() in function 'cv::imwrite'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b868/64002924e3ef43e72bf1b868.jpg
-2023-03-20 10:32:47,740 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b870/64002924e3ef43e72bf1b870.jpg
-2023-03-20 10:32:56,743 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b876/64002924e3ef43e72bf1b876.jpg
-2023-03-20 10:33:11,531 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b880/64002924e3ef43e72bf1b880.jpg
-2023-03-20 10:33:18,909 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/6412993090e8b06d0c8b6680/6412993090e8b06d0c8b6680.jpg
-2023-03-20 10:33:20,441 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64129dad25cd653c4a877ef3/64129dad25cd653c4a877ef3.jpg
-2023-03-20 10:33:20,513 - app - INFO - v3Encode:179 - Encoding Faces... (This may take a while)
-2023-03-20 10:33:44,700 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:33:50,867 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:39:02,746 - app - INFO - v1Encode:55 - [v1] Encoding Done!
-2023-03-20 10:39:02,754 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 10:39:02,754 - app - INFO - v2Encode:63 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 10:39:02,760 - app - INFO - v3Encode:162 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 10:39:02,761 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
-2023-03-20 10:39:04,154 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg
-2023-03-20 10:40:07,300 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84b/64002924e3ef43e72bf1b84b.jpg
-2023-03-20 10:40:11,983 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b84e/64002924e3ef43e72bf1b84e.jpg
-2023-03-20 10:40:22,138 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b855/64002924e3ef43e72bf1b855.jpg
-2023-03-20 10:40:25,033 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b857/64002924e3ef43e72bf1b857.jpg
-2023-03-20 10:40:26,496 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b858/64002924e3ef43e72bf1b858.jpg
-2023-03-20 10:40:46,954 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b866/64002924e3ef43e72bf1b866.jpg
-2023-03-20 10:40:49,887 - app - ERROR - imgCropV3:457 - Something happened - OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
-. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b868/64002924e3ef43e72bf1b868.jpg
-2023-03-20 10:41:01,628 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b870/64002924e3ef43e72bf1b870.jpg
-2023-03-20 10:41:10,425 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b876/64002924e3ef43e72bf1b876.jpg
-2023-03-20 10:41:24,890 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b880/64002924e3ef43e72bf1b880.jpg
-2023-03-20 10:41:32,243 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/6412993090e8b06d0c8b6680/6412993090e8b06d0c8b6680.jpg
-2023-03-20 10:41:33,724 - app - ERROR - imgCropV3:457 - Something happened - list index out of range. Image saved without cropping. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64129dad25cd653c4a877ef3/64129dad25cd653c4a877ef3.jpg
-2023-03-20 10:41:33,801 - app - INFO - v3Encode:179 - Encoding Faces... (This may take a while)
-2023-03-20 10:43:19,989 - app - INFO - v3Encode:256 - Encoding Done!
-2023-03-20 10:43:19,989 - app - INFO - v3Encode:258 - [v3] Encoding Done!
-2023-03-20 10:44:19,041 - app - INFO - process:42 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/1/data/input.jpg
-2023-03-20 10:54:23,871 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:54:29,560 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:56:48,049 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 10:56:53,996 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 10:59:27,272 - app - INFO - grabRawDatasets:262 - Raw datasets is getting grabbed...
-2023-03-20 11:00:05,773 - app - INFO - grabRawDatasets:262 - Raw datasets is getting grabbed...
-2023-03-20 11:01:23,591 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 11:01:29,709 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
-2023-03-20 11:04:01,014 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 11:04:45,714 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 11:10:01,492 - app - INFO - v1Encode:54 - [v1] Encoding Done!
-2023-03-20 11:10:01,499 - app - INFO - v2Encode:58 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 11:10:01,499 - app - INFO - v2Encode:62 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 11:10:01,506 - app - INFO - v3Encode:158 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 11:10:01,506 - app - INFO - v3Encode:162 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 11:10:21,153 - app - INFO - process:42 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/2/data/input.jpg
-2023-03-20 11:10:21,174 - app - INFO - getFaceCoordinates:499 - [YuNet] Grabbing faces detected from input image
-2023-03-20 11:10:21,259 - app - INFO - getFaceCoordinates:556 - [YuNet] Face grab success. Got total faces of 1
-2023-03-20 11:10:21,264 - app - INFO - recog:85 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/2/frame/frame001.jpg
-2023-03-20 11:10:21,788 - app - INFO - process:77 - [v1] API return success. Request fulfilled.
-2023-03-20 11:11:08,704 - app - INFO - process:42 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/1/data/input.jpg
-2023-03-20 11:11:08,726 - app - INFO - getFaceCoordinates:499 - [YuNet] Grabbing faces detected from input image
-2023-03-20 11:11:08,805 - app - INFO - getFaceCoordinates:556 - [YuNet] Face grab success. Got total faces of 1
-2023-03-20 11:11:50,769 - app - INFO - process:42 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/2/data/input.jpg
-2023-03-20 11:11:50,877 - app - INFO - getFaceCoordinates:499 - [YuNet] Grabbing faces detected from input image
-2023-03-20 11:11:51,254 - app - INFO - getFaceCoordinates:556 - [YuNet] Face grab success. Got total faces of 0
-2023-03-20 11:11:51,276 - app - INFO - process:51 - API return success with exception: No face detected. Files removed
-2023-03-20 11:24:42,831 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 11:27:14,657 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 11:32:34,272 - app - INFO - v1Encode:54 - [v1] Encoding Done!
-2023-03-20 11:32:34,279 - app - INFO - v2Encode:58 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 11:32:34,279 - app - INFO - v2Encode:62 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 11:32:34,284 - app - INFO - v3Encode:158 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 11:32:34,285 - app - INFO - v3Encode:162 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 11:34:36,728 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 13:47:23,210 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 13:52:48,200 - app - INFO - v1Encode:54 - [v1] Encoding Done!
-2023-03-20 13:52:48,208 - app - INFO - v2Encode:58 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 13:52:48,209 - app - INFO - v2Encode:62 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 13:52:48,217 - app - INFO - v3Encode:158 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 13:52:48,218 - app - INFO - v3Encode:162 - ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 13:53:47,560 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/3/data/input.jpg
-2023-03-20 13:53:47,572 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/3/data/input.jpg
-2023-03-20 13:53:47,573 - app - INFO - inputRecog:499 - [v1] Grabbing faces detected from input image
-2023-03-20 13:53:48,033 - app - INFO - inputRecog:547 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/3/data/input.jpg
-2023-03-20 13:53:48,054 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
-2023-03-20 13:54:17,312 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/4/data/input.jpg
-2023-03-20 13:54:17,314 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/4/data/input.jpg
-2023-03-20 13:54:17,315 - app - INFO - inputRecog:499 - [v1] Grabbing faces detected from input image
-2023-03-20 13:54:17,360 - app - INFO - inputRecog:547 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/4/frame/frame001.jpg
-2023-03-20 13:57:00,822 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:05:49,711 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:05:49,713 - app - INFO - v1Encode:57 - First time training, creating new initial train file.
-2023-03-20 14:11:11,636 - app - INFO - v1Encode:76 - [v1] Encoding Done!
-2023-03-20 14:11:11,641 - app - INFO - v2Encode:80 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 14:11:11,641 - app - INFO - v2Encode:84 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:11:11,646 - app - INFO - v3Encode:180 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 14:11:11,646 - app - INFO - v3Encode:184 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:11:42,377 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/5/data/input.jpg
-2023-03-20 14:11:42,378 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/5/data/input.jpg
-2023-03-20 14:11:42,379 - app - INFO - inputRecog:521 - [v1] Grabbing faces detected from input image
-2023-03-20 14:11:42,416 - app - INFO - inputRecog:569 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/5/frame/frame001.jpg
-2023-03-20 14:12:04,449 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:12:24,744 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:12:24,745 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 14:17:52,127 - app - INFO - v1Encode:76 - [v1] Encoding Done!
-2023-03-20 14:17:52,131 - app - INFO - v2Encode:80 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 14:17:52,131 - app - INFO - v2Encode:84 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:17:52,135 - app - INFO - v3Encode:180 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 14:17:52,135 - app - INFO - v3Encode:184 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:18:43,966 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/6/data/input.jpg
-2023-03-20 14:18:43,966 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/6/data/input.jpg
-2023-03-20 14:18:43,971 - app - INFO - inputRecog:521 - [v1] Grabbing faces detected from input image
-2023-03-20 14:18:44,009 - app - INFO - inputRecog:569 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/6/frame/frame001.jpg
-2023-03-20 14:18:44,535 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
-2023-03-20 14:19:00,674 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/2/data/input.jpg
-2023-03-20 14:19:00,675 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/2/data/input.jpg
-2023-03-20 14:19:00,681 - app - INFO - inputRecog:597 - [v2] Grabbing faces detected from input image
-2023-03-20 14:20:25,610 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/1/data/input.jpg
-2023-03-20 14:20:25,612 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/1/data/input.jpg
-2023-03-20 14:20:25,621 - app - INFO - inputRecog:686 - Recognizing faces into user IDs
-2023-03-20 14:21:29,780 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:23:17,016 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:23:17,017 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 14:28:35,787 - app - INFO - v1Encode:76 - [v1] Encoding Done!
-2023-03-20 14:28:35,798 - app - INFO - v2Encode:80 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 14:28:35,799 - app - INFO - v2Encode:84 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:28:35,803 - app - INFO - v3Encode:180 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 14:28:35,804 - app - INFO - v3Encode:184 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:30:15,722 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/7/data/input.jpg
-2023-03-20 14:30:15,724 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/7/data/input.jpg
-2023-03-20 14:30:15,725 - app - INFO - inputRecog:524 - [v1] Grabbing faces detected from input image
-2023-03-20 14:30:15,762 - app - INFO - inputRecog:570 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/7/frame/frame001.jpg
-2023-03-20 14:30:16,280 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
-2023-03-20 14:30:21,260 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/3/data/input.jpg
-2023-03-20 14:30:21,261 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/3/data/input.jpg
-2023-03-20 14:30:21,270 - app - INFO - inputRecog:598 - [v2] Grabbing faces detected from input image
-2023-03-20 14:31:27,128 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/2/data/input.jpg
-2023-03-20 14:31:27,129 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/2/data/input.jpg
-2023-03-20 14:31:27,137 - app - INFO - inputRecog:687 - Recognizing faces into user IDs
-2023-03-20 14:35:57,692 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:35:57,693 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:40:13,862 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:40:13,862 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:40:27,478 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:40:27,478 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 14:47:08,241 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:47:08,244 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 14:47:28,972 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:47:28,972 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 14:52:45,087 - app - INFO - v1Encode:79 - [v1] Encoding Done!
-2023-03-20 14:52:45,091 - app - INFO - v2Encode:83 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 14:52:45,092 - app - INFO - v2Encode:87 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:52:45,096 - app - INFO - v3Encode:183 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 14:52:45,096 - app - INFO - v3Encode:187 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 14:53:50,528 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/4/data/input.jpg
-2023-03-20 14:53:50,530 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/4/data/input.jpg
-2023-03-20 14:53:50,539 - app - INFO - inputRecog:601 - [v2] Grabbing faces detected from input image
-2023-03-20 14:56:22,189 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 14:56:22,191 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:01:23,976 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:01:23,977 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 15:02:45,699 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:02:45,700 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 15:10:36,945 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:10:36,946 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 15:11:09,028 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:11:09,028 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 15:12:12,294 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:12:12,294 - app - INFO - v1Encode:57 - First time v1 training, creating new initial train file.
-2023-03-20 15:17:31,190 - app - INFO - v1Encode:91 - [v1] Encoding Done!
-2023-03-20 15:17:31,196 - app - INFO - v2Encode:95 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:17:31,197 - app - INFO - v2Encode:99 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:17:31,202 - app - INFO - v3Encode:195 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:17:31,202 - app - INFO - v3Encode:199 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:18:13,977 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/5/data/input.jpg
-2023-03-20 15:18:13,978 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/5/data/input.jpg
-2023-03-20 15:18:13,987 - app - INFO - inputRecog:613 - [v2] Grabbing faces detected from input image
-2023-03-20 15:18:25,040 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
-2023-03-20 15:23:53,993 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:23:53,993 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:24:54,622 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:24:54,622 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:24:54,656 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:24:54,656 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:24:54,660 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:24:54,661 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:25:03,402 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/8/data/input.jpg
-2023-03-20 15:25:03,404 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/8/data/input.jpg
-2023-03-20 15:25:03,405 - app - INFO - inputRecog:538 - [v1] Grabbing faces detected from input image
-2023-03-20 15:25:03,456 - app - INFO - inputRecog:584 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/8/frame/frame001.jpg
-2023-03-20 15:25:29,181 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/6/data/input.jpg
-2023-03-20 15:25:29,182 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/6/data/input.jpg
-2023-03-20 15:25:29,191 - app - INFO - inputRecog:612 - [v2] Grabbing faces detected from input image
-2023-03-20 15:25:34,854 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
-2023-03-20 15:30:47,164 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:30:47,165 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:30:47,204 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:30:47,206 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:30:47,210 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:30:47,210 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:30:57,298 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/9/data/input.jpg
-2023-03-20 15:30:57,299 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/9/data/input.jpg
-2023-03-20 15:30:57,300 - app - INFO - inputRecog:538 - [v1] Grabbing faces detected from input image
-2023-03-20 15:30:57,350 - app - INFO - inputRecog:584 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/9/frame/frame001.jpg
-2023-03-20 15:30:57,873 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
-2023-03-20 15:31:03,892 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/7/data/input.jpg
-2023-03-20 15:31:03,893 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/7/data/input.jpg
-2023-03-20 15:31:03,901 - app - INFO - inputRecog:612 - [v2] Grabbing faces detected from input image
-2023-03-20 15:31:11,070 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
-2023-03-20 15:31:21,695 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/3/data/input.jpg
-2023-03-20 15:31:21,697 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/3/data/input.jpg
-2023-03-20 15:31:21,704 - app - INFO - inputRecog:701 - Recognizing faces into user IDs
-2023-03-20 15:31:24,045 - app - INFO - process:57 - [v3] API return success. Request fulfilled.
-2023-03-20 15:32:38,275 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:32:38,280 - app - INFO - v1Encode:56 - First time v1 training, creating new initial train file.
-2023-03-20 15:32:47,262 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:32:47,262 - app - INFO - v1Encode:56 - First time v1 training, creating new initial train file.
-2023-03-20 15:38:14,687 - app - INFO - v1Encode:90 - [v1] Encoding Done!
-2023-03-20 15:38:14,694 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:38:14,694 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:38:14,696 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:38:14,696 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:39:00,854 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/4/data/input.jpg
-2023-03-20 15:39:00,856 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/4/data/input.jpg
-2023-03-20 15:39:00,864 - app - INFO - inputRecog:701 - Recognizing faces into user IDs
-2023-03-20 15:39:06,562 - app - INFO - process:57 - [v3] API return success. Request fulfilled.
-2023-03-20 15:40:23,490 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:40:23,492 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:40:23,548 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:40:23,548 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:40:23,553 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:40:23,553 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:40:30,027 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/5/data/input.jpg
-2023-03-20 15:40:30,028 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/5/data/input.jpg
-2023-03-20 15:40:30,036 - app - INFO - inputRecog:701 - Recognizing faces into user IDs
-2023-03-20 15:40:35,843 - app - INFO - process:57 - [v3] API return success. Request fulfilled.
-2023-03-20 15:41:23,753 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:41:23,755 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:41:23,809 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:41:23,809 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:41:23,813 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:41:23,814 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:41:27,827 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/6/data/input.jpg
-2023-03-20 15:41:27,829 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/6/data/input.jpg
-2023-03-20 15:41:27,838 - app - INFO - inputRecog:701 - Recognizing faces into user IDs
-2023-03-20 15:41:33,473 - app - INFO - process:57 - [v3] API return success. Request fulfilled.
-2023-03-20 15:42:44,677 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:42:44,682 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:42:44,733 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:42:44,734 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:42:44,737 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:42:44,738 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:42:47,662 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230320/7/data/input.jpg
-2023-03-20 15:42:47,665 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230320/7/data/input.jpg
-2023-03-20 15:42:47,673 - app - INFO - inputRecog:701 - Recognizing faces into user IDs
-2023-03-20 15:42:53,183 - app - INFO - process:57 - [v3] API return success. Request fulfilled.
-2023-03-20 15:43:01,312 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230320/8/data/input.jpg
-2023-03-20 15:43:01,314 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230320/8/data/input.jpg
-2023-03-20 15:43:01,321 - app - INFO - inputRecog:612 - [v2] Grabbing faces detected from input image
-2023-03-20 15:43:01,931 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
-2023-03-20 15:43:06,795 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/10/data/input.jpg
-2023-03-20 15:43:06,797 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/10/data/input.jpg
-2023-03-20 15:43:06,798 - app - INFO - inputRecog:538 - [v1] Grabbing faces detected from input image
-2023-03-20 15:43:06,834 - app - INFO - inputRecog:584 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/10/frame/frame001.jpg
-2023-03-20 15:43:07,356 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
-2023-03-20 15:43:47,382 - app - INFO - v1Encode:41 - [v1] Encoding is starting... (This might take a while)
-2023-03-20 15:43:47,382 - app - INFO - v1Encode:45 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:43:47,435 - app - INFO - v2Encode:94 - [v2] Encoding is starting... (This might take a while)
-2023-03-20 15:43:47,436 - app - INFO - v2Encode:98 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:43:47,440 - app - INFO - v3Encode:194 - [v3] Encoding is starting... (This might take a while)
-2023-03-20 15:43:47,440 - app - INFO - v3Encode:198 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
-2023-03-20 15:43:55,649 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230320/11/data/input.jpg
-2023-03-20 15:43:55,649 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230320/11/data/input.jpg
-2023-03-20 15:43:55,651 - app - INFO - inputRecog:538 - [v1] Grabbing faces detected from input image
-2023-03-20 15:43:55,691 - app - INFO - inputRecog:584 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230320/11/frame/frame001.jpg
-2023-03-20 15:43:56,203 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:03:52,336 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:03:52,336 - app - INFO - v1Encode:62 - First time v1 training, creating new initial train file.
+2023-03-27 11:03:55,209 - app - INFO - v1Encode:96 - [v1] Encoding Done!
+2023-03-27 11:03:55,216 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:03:55,217 - app - INFO - v2Encode:111 - First time v2 training, creating new initial train file.
+2023-03-27 11:04:09,862 - app - INFO - v2Encode:194 - Encoding Done!
+2023-03-27 11:04:09,867 - app - INFO - v2Encode:196 - [v2] Encoding Done!
+2023-03-27 11:04:09,874 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:04:09,875 - app - INFO - v3Encode:211 - First time v3 training, creating new initial train file.
+2023-03-27 11:04:53,199 - app - INFO - grabRawDatasets:297 - Raw datasets is getting grabbed...
+2023-03-27 11:08:02,912 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:08:02,912 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:08:02,916 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:08:02,917 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:08:02,919 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:08:02,920 - app - INFO - v3Encode:211 - First time v3 training, creating new initial train file.
+2023-03-27 11:10:43,986 - app - INFO - v3Encode:291 - Encoding Done!
+2023-03-27 11:10:43,986 - app - INFO - v3Encode:293 - [v3] Encoding Done!
+2023-03-27 11:11:20,885 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:11:20,885 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:11:20,889 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:11:20,890 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:11:20,891 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:11:20,892 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:11:37,720 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/1/data/input.jpg
+2023-03-27 11:11:37,724 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/1/data/input.jpg
+2023-03-27 11:11:37,725 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:11:37,774 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/1/frame/frame001.jpg
+2023-03-27 11:11:45,075 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/2/data/input.jpg
+2023-03-27 11:11:45,077 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/2/data/input.jpg
+2023-03-27 11:11:45,078 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:11:45,254 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/2/frame/frame003.jpg
+2023-03-27 11:11:50,377 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/3/data/input.jpg
+2023-03-27 11:11:50,382 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/3/data/input.jpg
+2023-03-27 11:11:50,382 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:11:50,446 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/3/frame/frame001.jpg
+2023-03-27 11:13:42,733 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:13:42,733 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:13:42,737 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:13:42,737 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:13:42,740 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:13:42,740 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:13:47,142 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/4/data/input.jpg
+2023-03-27 11:13:47,142 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/4/data/input.jpg
+2023-03-27 11:13:47,146 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:13:47,259 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/4/frame/frame001.jpg
+2023-03-27 11:14:28,848 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/5/data/input.jpg
+2023-03-27 11:14:28,848 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/5/data/input.jpg
+2023-03-27 11:14:28,848 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:14:28,988 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/5/frame/frame004.jpg
+2023-03-27 11:16:28,717 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:16:28,717 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:16:28,723 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:16:28,723 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:16:28,726 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:16:28,726 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:16:33,522 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/6/data/input.jpg
+2023-03-27 11:16:33,527 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/6/data/input.jpg
+2023-03-27 11:16:33,532 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:16:33,876 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/6/frame/frame004.jpg
+2023-03-27 11:18:21,879 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:18:21,880 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:18:21,884 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:18:21,885 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:18:21,889 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:18:21,890 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:18:25,578 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/7/data/input.jpg
+2023-03-27 11:18:25,580 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/7/data/input.jpg
+2023-03-27 11:18:25,581 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:18:25,790 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/7/frame/frame004.jpg
+2023-03-27 11:21:14,186 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:21:14,186 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:21:14,192 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:21:14,193 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:21:14,196 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:21:14,197 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:21:17,221 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/8/data/input.jpg
+2023-03-27 11:21:17,224 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/8/data/input.jpg
+2023-03-27 11:21:17,225 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:21:17,441 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/8/frame/frame004.jpg
+2023-03-27 11:29:58,037 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:29:58,038 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:29:58,042 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:29:58,042 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:29:58,045 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:29:58,046 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:02,358 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/9/data/input.jpg
+2023-03-27 11:30:02,362 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/9/data/input.jpg
+2023-03-27 11:30:02,363 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:30:02,613 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/9/frame/frame004.jpg
+2023-03-27 11:30:32,512 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:30:32,512 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:32,517 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:30:32,517 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:32,520 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:30:32,521 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:33,214 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/10/data/input.jpg
+2023-03-27 11:30:33,216 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/10/data/input.jpg
+2023-03-27 11:30:33,216 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:30:33,364 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/10/frame/frame004.jpg
+2023-03-27 11:30:55,184 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:30:55,185 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:55,188 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:30:55,189 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:55,191 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:30:55,192 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:30:58,959 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/11/data/input.jpg
+2023-03-27 11:30:58,962 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/11/data/input.jpg
+2023-03-27 11:30:58,963 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:30:59,171 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/11/frame/frame004.jpg
+2023-03-27 11:32:23,773 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:32:23,774 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:32:23,777 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:32:23,777 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:32:23,781 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:32:23,782 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:32:26,986 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/12/data/input.jpg
+2023-03-27 11:32:26,989 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/12/data/input.jpg
+2023-03-27 11:32:26,990 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:32:27,202 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/12/frame/frame004.jpg
+2023-03-27 11:33:06,577 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:33:06,578 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:33:06,581 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:33:06,583 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:33:06,586 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:33:06,586 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:33:17,114 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/13/data/input.jpg
+2023-03-27 11:33:17,117 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/13/data/input.jpg
+2023-03-27 11:33:17,117 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:33:17,354 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/13/frame/frame004.jpg
+2023-03-27 11:33:56,924 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:33:56,925 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:33:56,927 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:33:56,928 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:33:56,931 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:33:56,931 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:34:01,190 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/14/data/input.jpg
+2023-03-27 11:34:01,195 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/14/data/input.jpg
+2023-03-27 11:34:01,196 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:34:01,449 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/14/frame/frame004.jpg
+2023-03-27 11:34:30,581 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:34:30,582 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:34:30,585 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:34:30,586 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:34:30,590 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:34:30,590 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:34:31,726 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/15/data/input.jpg
+2023-03-27 11:34:31,728 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/15/data/input.jpg
+2023-03-27 11:34:31,729 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:34:31,884 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/15/frame/frame004.jpg
+2023-03-27 11:36:13,066 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:36:13,067 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:36:13,070 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:36:13,071 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:36:13,074 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:36:13,075 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:36:17,983 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/16/data/input.jpg
+2023-03-27 11:36:17,985 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/16/data/input.jpg
+2023-03-27 11:36:17,986 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:36:18,215 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/16/frame/frame004.jpg
+2023-03-27 11:36:59,410 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:36:59,410 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:36:59,413 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:36:59,414 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:36:59,417 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:36:59,418 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:37:05,214 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/17/data/input.jpg
+2023-03-27 11:37:05,217 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/17/data/input.jpg
+2023-03-27 11:37:05,217 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:37:05,416 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/17/frame/frame004.jpg
+2023-03-27 11:37:07,260 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:37:36,597 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:37:36,597 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:37:36,601 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:37:36,601 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:37:36,604 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:37:36,604 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:38:18,240 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/18/data/input.jpg
+2023-03-27 11:38:18,243 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/18/data/input.jpg
+2023-03-27 11:38:18,243 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:41:08,778 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/19/data/input.jpg
+2023-03-27 11:41:08,779 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/19/data/input.jpg
+2023-03-27 11:41:08,780 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:41:08,817 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/19/frame/frame001.jpg
+2023-03-27 11:41:09,331 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:44:00,208 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/20/data/input.jpg
+2023-03-27 11:44:00,210 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/20/data/input.jpg
+2023-03-27 11:44:00,211 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:44:00,281 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/20/frame/frame001.jpg
+2023-03-27 11:44:00,783 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:44:19,624 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:44:19,625 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:44:19,629 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:44:19,630 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:44:19,633 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:44:19,634 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:44:23,142 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/21/data/input.jpg
+2023-03-27 11:44:23,144 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/21/data/input.jpg
+2023-03-27 11:44:23,145 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:44:23,291 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/21/frame/frame001.jpg
+2023-03-27 11:44:24,121 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:46:00,332 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/22/data/input.jpg
+2023-03-27 11:46:00,334 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/22/data/input.jpg
+2023-03-27 11:46:00,335 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:46:00,397 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/22/frame/frame004.jpg
+2023-03-27 11:46:02,272 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:47:38,477 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/23/data/input.jpg
+2023-03-27 11:47:38,479 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/23/data/input.jpg
+2023-03-27 11:47:38,479 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:50:36,254 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:50:36,255 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:50:36,260 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:50:36,261 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:50:36,265 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:50:36,266 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:50:52,954 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/24/data/input.jpg
+2023-03-27 11:50:52,958 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/24/data/input.jpg
+2023-03-27 11:50:52,959 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:51:04,758 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/25/data/input.jpg
+2023-03-27 11:51:04,760 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/25/data/input.jpg
+2023-03-27 11:51:04,761 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:51:04,820 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/25/frame/frame004.jpg
+2023-03-27 11:51:06,527 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:51:24,734 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230327/1/data/input.jpg
+2023-03-27 11:51:24,737 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230327/1/data/input.jpg
+2023-03-27 11:51:24,741 - app - INFO - inputRecog:620 - [v2] Grabbing faces detected from input image
+2023-03-27 11:51:29,939 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
+2023-03-27 11:53:10,933 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230327/2/data/input.jpg
+2023-03-27 11:53:10,934 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230327/2/data/input.jpg
+2023-03-27 11:53:10,967 - app - INFO - inputRecog:620 - [v2] Grabbing faces detected from input image
+2023-03-27 11:53:11,542 - app - INFO - process:57 - [v2] API return success. Request fulfilled.
+2023-03-27 11:54:49,443 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/26/data/input.jpg
+2023-03-27 11:54:49,446 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/26/data/input.jpg
+2023-03-27 11:54:49,447 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:54:49,673 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/26/data/input.jpg
+2023-03-27 11:54:49,687 - app - INFO - process:55 - [v1] API return success. Request fulfilled.
+2023-03-27 11:59:41,495 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 11:59:41,496 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:59:41,500 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 11:59:41,500 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:59:41,507 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 11:59:41,508 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 11:59:45,890 - app - INFO - process:28 - [v1] API request received. Image path: C:\Project\pol-recog-main/data/api_v1/output/20230327/27/data/input.jpg
+2023-03-27 11:59:45,890 - app - INFO - process:44 - [v1] Saving image to C:\Project\pol-recog-main/data/api_v1/output/20230327/27/data/input.jpg
+2023-03-27 11:59:45,890 - app - INFO - inputRecog:543 - [v1] Grabbing faces detected from input image
+2023-03-27 11:59:46,134 - app - INFO - inputRecog:589 - [v1] Recognizing faces into user IDs. Filename: C:\Project\pol-recog-main/data/api_v1/output/20230327/27/data/input.jpg
+2023-03-27 11:59:53,060 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230327/3/data/input.jpg
+2023-03-27 11:59:53,060 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230327/3/data/input.jpg
+2023-03-27 11:59:53,091 - app - INFO - inputRecog:620 - [v2] Grabbing faces detected from input image
+2023-03-27 11:59:54,175 - app - INFO - process:60 - [v2] API return success. Request fulfilled.
+2023-03-27 12:00:21,708 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 12:00:21,708 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:00:21,725 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 12:00:21,725 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:00:21,730 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 12:00:21,730 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:00:32,415 - app - INFO - process:28 - [v2] API request received. Image path: C:\Project\pol-recog-main/data/api_v2/output/20230327/4/data/input.jpg
+2023-03-27 12:00:32,431 - app - INFO - process:44 - Saving image to C:\Project\pol-recog-main/data/api_v2/output/20230327/4/data/input.jpg
+2023-03-27 12:00:32,456 - app - INFO - inputRecog:620 - [v2] Grabbing faces detected from input image
+2023-03-27 12:00:37,039 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230327/1/data/input.jpg
+2023-03-27 12:00:37,039 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230327/1/data/input.jpg
+2023-03-27 12:00:37,071 - app - INFO - inputRecog:709 - Recognizing faces into user IDs
+2023-03-27 12:28:55,318 - app - INFO - v1Encode:47 - [v1] Encoding is starting... (This might take a while)
+2023-03-27 12:28:55,318 - app - INFO - v1Encode:51 - V1 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:28:55,324 - app - INFO - v2Encode:100 - [v2] Encoding is starting... (This might take a while)
+2023-03-27 12:28:55,324 - app - INFO - v2Encode:104 - V2 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:28:55,329 - app - INFO - v3Encode:200 - [v3] Encoding is starting... (This might take a while)
+2023-03-27 12:28:55,329 - app - INFO - v3Encode:204 - V3 ENCODING AND UPDATE SKIPPED. MODEL EXISTS.
+2023-03-27 12:29:00,083 - app - INFO - process:28 - [v3] API request received. Image path: C:\Project\pol-recog-main/data/api_v3/output/20230327/2/data/input.jpg
+2023-03-27 12:29:00,085 - app - INFO - process:44 - [v3] Saving image to C:\Project\pol-recog-main/data/api_v3/output/20230327/2/data/input.jpg
+2023-03-27 12:29:00,117 - app - INFO - inputRecog:709 - Recognizing faces into user IDs

@@ -13,7 +13,8 @@ from PIL import Image, ImageOps, ImageEnhance
 import json
 
 # Fixing vggface import error
-filename = "/usr/local/lib/python3.7/site-packages/keras_vggface/models.py"
+# filename = "/usr/local/lib/python3.7/site-packages/keras_vggface/models.py"
+filename = "C:/Users/Zhafran Pratama/AppData/Local/Programs/Python/Python37/lib/site-packages/keras_vggface/models.py"
 text = open(filename).read()
 open(filename, "w+").write(text.replace('keras.engine.topology', 'keras.utils.layer_utils'))
 
@@ -591,22 +592,25 @@ class Models:
                 currentFrame = self.resize(f"{CWD}/data/api_v1/output/{frameFilename}", 480)
                 currentFrame = self.convertBGRtoRGB(currentFrame)
 
-                faceNames = list(self.getFaceNames(currentFrame))
+                faceNames = self.getFaceNames(currentFrame)
 
-                tmpFaceNames = []
-                for i in faceNames:
-                    IDdetected = i.split("-")[0]
-                    if IDdetected == "Unknown (0%)":
-                        IDdetected = "Unknown"
-                        confidence = 0
-                    else:
-                        confidence = i.split("jpg (")[1].split("%")[0]
-                    # Threshold confidence of 85% for the API to return
-                    if float(confidence) > 85 or IDdetected == "Unknown":
-                        tmpFaceNames.append([IDdetected, f"{confidence}%"])
-                faceNames = tmpFaceNames
+                print(faceNames)
 
-                facesDetected.append({"frame_path": frameFilename, "face_detected": faceNames[0][0].split(".jpg")[0], "confidence": faceNames[0][1]})
+                if faceNames == []:
+                    faceNames = "Unknown (0%)"
+                else:
+                    faceNames = faceNames[0]
+
+                IDdetected = faceNames.split("-")[0]
+                if IDdetected == "Unknown (0%)":
+                    IDdetected = "Unknown"
+                    confidence = 0
+                else:
+                    confidence = faceNames.split("jpg (")[1].split("%")[0]
+
+                # Threshold confidence of 85% for the API to return
+                if float(confidence) > 85 or IDdetected == "Unknown":
+                    facesDetected.append({"frame_path": frameFilename.split("frame/")[1], "face_detected": IDdetected, "confidence": confidence})
 
             result = {"face_count": len(filenames), "result": facesDetected}
 
@@ -694,7 +698,7 @@ class Models:
                 predicted_prob = v2model.predict(x)
                 faceDetected = class_list[predicted_prob[0].argmax()]
 
-                facesDetected.update({frameFilename: faceDetected})
+                facesDetected.update({frameFilename.split("frame/")[1]: faceDetected})
                 count += 1
 
             result = {"faceCount":len(filenames), "result": facesDetected}
@@ -703,9 +707,6 @@ class Models:
         elif model == "v3":
             ### V3 - YoloFace Detection ###
             logger.info("Recognizing faces into user IDs")
-
-            # Set the dimensions of the image
-            imageWidth, imageHeight = (224, 224)
 
             # load the training labels
             faceLabelFilename = f'{CWD}/ml-models/training-models/face-labels.pickle'
@@ -771,7 +772,7 @@ class Models:
                 predicted_prob = v3model.predict(x)
                 faceDetected = class_list[predicted_prob[0].argmax()]
 
-                facesDetected.update({frameFilename: faceDetected})
+                facesDetected.update({frameFilename.split("frame/")[1]: faceDetected})
                 count += 1
 
             result = {"faceCount":len(filenames), "result": facesDetected}
@@ -814,87 +815,6 @@ class Models:
         else:
             value = (linear_val + ((1.0 - linear_val) * math.pow((linear_val - 0.5) * 2, 0.2))) * 100
             return str(round(value, 2)) + '%'
-
-    # def getFaceCoordinates(self, frame, filenameDatas, model: str):
-    #     ''' Detect input face '''
-    #     if model not in ['yunet', 'yoloface']:
-    #         logger.error("getFaceCoordinates model not found. Only accepting yunet/yoloface")
-    #         return None
-
-    #     if model == "yunet":
-    #         logger.info("[YuNet] Grabbing faces detected from input image")
-
-    #         timeNow = filenameDatas["timeNow"]
-    #         id = filenameDatas["id"]
-    #         detector = cv2.FaceDetectorYN.create(f"{CWD}/ml-models/face_detection_yunet/face_detection_yunet_2022mar.onnx", "", (320, 320))
-
-    #         height, width, channels = frame.shape
-
-    #         # Set input size
-    #         detector.setInputSize((width, height))
-    #         # Getting detections
-    #         channel, faces = detector.detect(frame)
-    #         faces = faces if faces is not None else []
-
-    #         boxes = []
-    #         confidences = []
-    #         filenames = []
-    #         count = 1
-            
-    #         for face in faces:
-    #             box = list(map(int, face[:4]))
-    #             boxes.append(box)
-    #             x = box[0]
-    #             y = box[1]
-    #             w = box[2]
-    #             h = box[3]
-    #             faceCropped = frame[y:y + h, x:x + w]
-
-    #             ### SEMENTARA MASIH TANPA FILTERING MINIMUM PIXEL SHAPE 50
-    #             # if w >= 50 and h >= 50 and x >= 0 and y >= 0:
-    #             filename = f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/frame{str(count).zfill(3)}.jpg"
-    #             if not os.path.exists(f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/"):
-    #                 os.mkdir(f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/")
-    #             filenames.append(filename.split("output/")[1])
-    #             cv2.imwrite(filename, faceCropped)
-    #             cv2.imwrite(filename, self.resize(filename, 360))
-    #             count += 1
-                    
-    #             confidence = face[-1]
-    #             confidence = "{:.2f}%".format(confidence*100)
-
-    #             confidences.append(confidence)
-
-    #     if model == "yoloface":
-    #         logger.info("[YoloFace] Grabbing faces detected from input image")
-
-    #         timeNow = filenameDatas["timeNow"]
-    #         id = filenameDatas["id"]
-
-    #         face = face_analysis()
-    #         _,faces,_ = face.face_detection(frame_arr=frame,frame_status=True,model='tiny')
-
-    #         cv2_input = numpy.array(frame)
-
-    #         filename = f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/frame{str(count).zfill(3)}.jpg"
-    #         if not os.path.exists(f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/"):
-    #             os.mkdir(f"{CWD}/data/api_v1/output/{timeNow}/{id}/frame/")
-    #         filenames.append(filename.split("output/")[1])
-    #         cv2.imwrite(filename, faceCropped)
-    #         cv2.imwrite(filename, self.resize(filename, 360))
-            
-    #         box = boxes[0]
-    #         x,y,w,h = box[0],box[1],box[2],box[3]
-    #         cropped_face = cv2_input[y:y + w, x:x + h]
-    #         cv2.imwrite(img, cv2.cvtColor(cropped_face, cv2.COLOR_BGR2RGB))
-
-    #     if model == "yunet":
-    #         model = "YuNet"
-    #     elif model == "yoloface":
-    #         model = "YoloFace"
-
-    #     logger.info(f"[{model}] Face grab success. Got total faces of {len(filenames)}")
-    #     return (filenames, confidences)
     
     def resize(self, filename: str, resolution: int):
         frame = cv2.imread(filename)
