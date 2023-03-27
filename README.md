@@ -1,4 +1,4 @@
-# Face Recognition API using FastAPI, OpenCV, and face-recognition library.
+# Face Recognition API using FastAPI, OpenCV, YuNet face detection (v1 and v2), YoloFace detection (v3), face-recognition (v1) library and VGGFace recognition (v2 and v3).
 
 ### Usage
 - Using docker <br>
@@ -9,12 +9,12 @@
 `uvicorn main:app --host 0.0.0.0 --port 3344`
     - This runs the app on localhost port 3344
 
-Send a post request to the main directory "/" (localhost:3344) that include 1 body requests, "file" which is an image upload/image binary string.
+Send a post request to the main directory "/api/v<version>" (localhost:3344) that include 1 body requests, "file" which is an image upload/image binary string.
 
 This API updates then re-train datasets on 01:00 a.m. local time
 
 ### Outputs
-- v1
+- v1 (/api/v1)
 ```
 {
     "path_frame": [
@@ -38,7 +38,7 @@ This API updates then re-train datasets on 01:00 a.m. local time
 }
 ```
 
-- v2 and v3
+- v2 and v3 (/api/v2 /api/v3)
 ```
 {
     "path_frame": [
