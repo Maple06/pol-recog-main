@@ -1,0 +1,90 @@
+2023-03-17 14:14:38,763 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:15:54,295 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:16:55,849 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:16:55,855 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:18:27,632 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:18:27,637 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:18:27,642 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:18:27,648 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:18:27,649 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:18:27,649 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 14:21:31,139 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:21:31,144 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:21:31,145 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:21:31,149 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:21:31,149 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:21:31,151 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 14:25:20,027 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:25:20,032 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:25:20,033 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:25:20,038 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:25:20,040 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:25:20,040 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 14:25:37,964 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:25:37,968 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:25:37,970 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:25:37,974 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:25:37,974 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:25:37,974 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 14:26:18,754 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:26:18,756 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:26:18,758 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:26:18,761 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:26:18,762 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:26:18,762 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 14:29:02,281 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:29:11,055 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:31:08,162 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:32:09,152 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:32:27,965 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:32:54,152 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:33:28,462 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:39:39,764 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:40:12,805 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:41:38,313 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:44:40,555 - app - INFO - grabRawDatasets:296 - All raw datasets grabbed!
+2023-03-17 14:44:40,558 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:47:40,120 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:50:27,721 - app - INFO - grabRawDatasets:296 - All raw datasets grabbed!
+2023-03-17 14:50:27,723 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:54:58,568 - app - INFO - grabRawDatasets:266 - Raw datasets is getting grabbed...
+2023-03-17 14:58:00,353 - app - INFO - grabRawDatasets:296 - All raw datasets grabbed!
+2023-03-17 14:58:00,354 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 14:58:06,141 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 14:58:06,143 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 14:58:06,147 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 14:58:06,149 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 14:59:42,389 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:01:15,227 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:02:04,017 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:02:22,848 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:05:16,985 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:06:45,270 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:06:51,954 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 15:10:35,065 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 15:10:35,072 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 15:10:35,072 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 15:10:41,052 - app - INFO - v2Encode:77 - Encoding Faces... (This may take a while)
+2023-03-17 15:38:47,821 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:38:54,420 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 15:42:35,959 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 15:42:35,963 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 15:42:35,963 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 15:50:08,542 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:51:57,148 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 15:52:03,238 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 15:57:16,977 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 15:57:16,989 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 15:57:16,989 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 15:57:21,286 - app - INFO - v2Encode:76 - Encoding Faces... (This may take a while)
+2023-03-17 16:02:31,913 - app - INFO - v1Encode:40 - [v1] Encoding is starting... (This might take a while)
+2023-03-17 16:02:37,475 - app - INFO - v1Encode:45 - [v1] Encoding Faces... (This may take a while)
+2023-03-17 16:07:47,043 - app - INFO - v1Encode:55 - [v1] Encoding Done!
+2023-03-17 16:07:47,051 - app - INFO - v2Encode:59 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 16:07:47,051 - app - INFO - v2Encode:70 - First time training, creating new initial train file.
+2023-03-17 16:07:52,670 - app - INFO - v2Encode:76 - Encoding Faces... (This may take a while)
+2023-03-17 16:09:30,905 - app - INFO - v2Encode:156 - Encoding Done!
+2023-03-17 16:09:30,918 - app - INFO - v2Encode:158 - [v2] Encoding Done!
+2023-03-17 16:09:30,926 - app - INFO - v3Encode:162 - [v2] Encoding is starting... (This might take a while)
+2023-03-17 16:09:30,927 - app - INFO - v3Encode:173 - First time training, creating new initial train file.
+2023-03-17 16:11:47,583 - app - ERROR - imgCropV3:454 - Something happened - 'NoneType' object has no attribute 'shape'. Filename: C:\Project\pol-recog-main/data/api_v3/dataset/64002924e3ef43e72bf1b820/64002924e3ef43e72bf1b820.jpg

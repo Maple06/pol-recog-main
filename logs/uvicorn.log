@@ -1,0 +1,143 @@
+2023-03-20 10:43:20,604 - uvicorn.error - INFO - serve:75 - Started server process [13728]
+2023-03-20 10:43:20,609 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 10:43:20,609 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 10:44:17,301 - uvicorn.access - INFO - send:495 - 127.0.0.1:59469 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 10:44:19,170 - uvicorn.access - INFO - send:495 - 127.0.0.1:59469 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 11:10:01,650 - uvicorn.error - INFO - serve:75 - Started server process [1292]
+2023-03-20 11:10:01,650 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 11:10:01,652 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 11:10:19,873 - uvicorn.access - INFO - send:495 - 127.0.0.1:59629 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 11:10:21,790 - uvicorn.access - INFO - send:495 - 127.0.0.1:59629 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 11:11:06,000 - uvicorn.access - INFO - send:495 - 127.0.0.1:59635 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 11:11:08,844 - uvicorn.access - INFO - send:495 - 127.0.0.1:59635 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 11:11:39,757 - uvicorn.access - INFO - send:495 - 127.0.0.1:59638 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 11:11:51,279 - uvicorn.access - INFO - send:495 - 127.0.0.1:59638 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 11:32:34,421 - uvicorn.error - INFO - serve:75 - Started server process [12040]
+2023-03-20 11:32:34,422 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 11:32:34,423 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 13:52:48,383 - uvicorn.error - INFO - serve:75 - Started server process [6376]
+2023-03-20 13:52:48,383 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 13:52:48,385 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 13:53:44,205 - uvicorn.access - INFO - send:495 - 127.0.0.1:59941 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 13:53:48,055 - uvicorn.access - INFO - send:495 - 127.0.0.1:59941 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 13:54:17,281 - uvicorn.access - INFO - send:495 - 127.0.0.1:59943 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 13:54:17,410 - uvicorn.access - INFO - send:495 - 127.0.0.1:59943 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 14:11:11,799 - uvicorn.error - INFO - serve:75 - Started server process [18076]
+2023-03-20 14:11:11,800 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 14:11:11,800 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 14:11:42,356 - uvicorn.access - INFO - send:495 - 127.0.0.1:60045 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 14:11:42,968 - uvicorn.access - INFO - send:495 - 127.0.0.1:60045 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 14:17:52,281 - uvicorn.error - INFO - serve:75 - Started server process [7948]
+2023-03-20 14:17:52,282 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 14:17:52,283 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 14:18:43,942 - uvicorn.access - INFO - send:495 - 127.0.0.1:60075 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 14:18:44,535 - uvicorn.access - INFO - send:495 - 127.0.0.1:60075 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 14:19:00,637 - uvicorn.access - INFO - send:495 - 127.0.0.1:60076 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 14:19:01,672 - uvicorn.access - INFO - send:495 - 127.0.0.1:60076 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 14:20:25,583 - uvicorn.access - INFO - send:495 - 127.0.0.1:60086 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 14:20:27,499 - uvicorn.access - INFO - send:495 - 127.0.0.1:60086 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 14:28:35,941 - uvicorn.error - INFO - serve:75 - Started server process [4704]
+2023-03-20 14:28:35,942 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 14:28:35,943 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 14:30:15,694 - uvicorn.access - INFO - send:495 - 127.0.0.1:60126 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 14:30:16,281 - uvicorn.access - INFO - send:495 - 127.0.0.1:60126 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 14:30:21,234 - uvicorn.access - INFO - send:495 - 127.0.0.1:60126 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 14:30:22,329 - uvicorn.access - INFO - send:495 - 127.0.0.1:60126 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 14:31:27,102 - uvicorn.access - INFO - send:495 - 127.0.0.1:60127 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 14:31:28,955 - uvicorn.access - INFO - send:495 - 127.0.0.1:60127 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 14:52:45,239 - uvicorn.error - INFO - serve:75 - Started server process [12764]
+2023-03-20 14:52:45,240 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 14:52:45,241 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 14:53:50,507 - uvicorn.access - INFO - send:495 - 127.0.0.1:60166 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 14:53:51,514 - uvicorn.access - INFO - send:495 - 127.0.0.1:60166 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 15:17:31,702 - uvicorn.error - INFO - serve:75 - Started server process [11652]
+2023-03-20 15:17:31,703 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:17:31,703 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:18:13,947 - uvicorn.access - INFO - send:495 - 127.0.0.1:60299 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 15:18:25,230 - uvicorn.access - INFO - send:495 - 127.0.0.1:60299 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 15:24:54,808 - uvicorn.error - INFO - serve:75 - Started server process [10992]
+2023-03-20 15:24:54,809 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:24:54,810 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:25:03,374 - uvicorn.access - INFO - send:495 - 127.0.0.1:60326 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 15:25:04,120 - uvicorn.access - INFO - send:495 - 127.0.0.1:60326 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 15:25:29,157 - uvicorn.access - INFO - send:495 - 127.0.0.1:60327 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 15:25:34,855 - uvicorn.access - INFO - send:495 - 127.0.0.1:60327 - "POST /api/v2/ HTTP/1.1" 500
+2023-03-20 15:25:34,856 - uvicorn.error - ERROR - run_asgi:424 - Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 420, in run_asgi
+    self.scope, self.receive, self.send
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\uvicorn\middleware\message_logger.py", line 86, in __call__
+    raise exc from None
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\uvicorn\middleware\message_logger.py", line 82, in __call__
+    await self.app(scope, inner_receive, inner_send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\applications.py", line 276, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\routing.py", line 264, in app
+    is_coroutine=is_coroutine,
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\routing.py", line 152, in serialize_response
+    return jsonable_encoder(response_content)
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\encoders.py", line 123, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "c:\users\zhafran pratama\appdata\local\programs\python\python37\lib\site-packages\fastapi\encoders.py", line 160, in jsonable_encoder
+    raise ValueError(errors) from e
+ValueError: [ValueError('dictionary update sequence element #0 has length 29; 2 is required'), TypeError('vars() argument must have __dict__ attribute')]
+2023-03-20 15:30:47,375 - uvicorn.error - INFO - serve:75 - Started server process [16008]
+2023-03-20 15:30:47,376 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:30:47,376 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:30:57,274 - uvicorn.access - INFO - send:495 - 127.0.0.1:60364 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 15:30:57,873 - uvicorn.access - INFO - send:495 - 127.0.0.1:60364 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 15:31:03,873 - uvicorn.access - INFO - send:495 - 127.0.0.1:60365 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 15:31:11,071 - uvicorn.access - INFO - send:495 - 127.0.0.1:60365 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 15:31:21,657 - uvicorn.access - INFO - send:495 - 127.0.0.1:60366 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 15:31:24,093 - uvicorn.access - INFO - send:495 - 127.0.0.1:60366 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 15:38:14,850 - uvicorn.error - INFO - serve:75 - Started server process [7364]
+2023-03-20 15:38:14,852 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:38:14,853 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:39:00,828 - uvicorn.access - INFO - send:495 - 127.0.0.1:60437 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 15:39:06,601 - uvicorn.access - INFO - send:495 - 127.0.0.1:60437 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 15:40:23,702 - uvicorn.error - INFO - serve:75 - Started server process [12552]
+2023-03-20 15:40:23,703 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:40:23,704 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:40:29,993 - uvicorn.access - INFO - send:495 - 127.0.0.1:60470 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 15:40:35,887 - uvicorn.access - INFO - send:495 - 127.0.0.1:60470 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 15:41:23,952 - uvicorn.error - INFO - serve:75 - Started server process [5160]
+2023-03-20 15:41:23,953 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:41:23,954 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:41:27,797 - uvicorn.access - INFO - send:495 - 127.0.0.1:60479 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 15:41:33,508 - uvicorn.access - INFO - send:495 - 127.0.0.1:60479 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 15:42:44,880 - uvicorn.error - INFO - serve:75 - Started server process [16900]
+2023-03-20 15:42:44,881 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:42:44,882 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:42:47,628 - uvicorn.access - INFO - send:495 - 127.0.0.1:60484 - "POST /api/v3 HTTP/1.1" 307
+2023-03-20 15:42:53,184 - uvicorn.access - INFO - send:495 - 127.0.0.1:60484 - "POST /api/v3/ HTTP/1.1" 200
+2023-03-20 15:43:01,285 - uvicorn.access - INFO - send:495 - 127.0.0.1:60485 - "POST /api/v2 HTTP/1.1" 307
+2023-03-20 15:43:01,931 - uvicorn.access - INFO - send:495 - 127.0.0.1:60485 - "POST /api/v2/ HTTP/1.1" 200
+2023-03-20 15:43:06,761 - uvicorn.access - INFO - send:495 - 127.0.0.1:60485 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 15:43:07,356 - uvicorn.access - INFO - send:495 - 127.0.0.1:60485 - "POST /api/v1/ HTTP/1.1" 200
+2023-03-20 15:43:47,587 - uvicorn.error - INFO - serve:75 - Started server process [18304]
+2023-03-20 15:43:47,588 - uvicorn.error - INFO - startup:47 - Waiting for application startup.
+2023-03-20 15:43:47,589 - uvicorn.error - INFO - startup:61 - Application startup complete.
+2023-03-20 15:43:55,620 - uvicorn.access - INFO - send:495 - 127.0.0.1:60489 - "POST /api/v1 HTTP/1.1" 307
+2023-03-20 15:43:56,203 - uvicorn.access - INFO - send:495 - 127.0.0.1:60489 - "POST /api/v1/ HTTP/1.1" 200
