@@ -1,0 +1,1 @@
+{'face_count': 4, 'result': [{'frame_path': 'frame001.jpg', 'face_detected': 'Unknown', 'confidence': 0}, {'frame_path': 'frame002.jpg', 'face_detected': 'Unknown', 'confidence': 0}, {'frame_path': 'frame003.jpg', 'face_detected': 'Unknown', 'confidence': 0}, {'frame_path': 'frame004.jpg', 'face_detected': '64058cd9209bed864074bf76', 'confidence': '99.1'}]}

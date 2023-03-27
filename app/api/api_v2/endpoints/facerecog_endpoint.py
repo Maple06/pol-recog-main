@@ -13,4 +13,4 @@ class Recog:
 
         except Exception as e:
             logger.error('[v2] Error analysing an image :', e)
-            return {"faceDetected": None, "confidence": None, "match-status": False, "error-status": 1, "error-message": f"Error analysing an image: {e}"}
+            return {"path_frame": None, "path_result": None, "result": None, "error_message": f"Error - Something Happened: {e}", "status": 0}
